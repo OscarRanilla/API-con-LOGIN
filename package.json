@@ -1,0 +1,30 @@
+{
+  "name": "api-con-login",
+  "version": "1.0.0",
+  "description": "En este ejercicio vamos a trabajar la autenticación y el acceso a la API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarRanilla/API-con-LOGIN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarRanilla/API-con-LOGIN/issues"
+  },
+  "homepage": "https://github.com/OscarRanilla/API-con-LOGIN#readme",
+  "dependencies": {
+    "axios": "1.7.9",
+    "bcrypt": "5.1.1",
+    "dotenv": "16.4.7",
+    "express": "4.21.2",
+    "express-session": "1.18.1",
+    "jsonwebtoken": "9.0.2",
+    "validator": "13.12.0"
+  }
+}
